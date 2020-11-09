@@ -21,6 +21,7 @@ let mathOP = "";
 
 for(let i = 0; i < numberButtons.length; i++) {
   numberButtons[i].addEventListener('click', clickNumber);
+  
 }
 for(let i = 0; i < operatorButtons.length; i++) {
   operatorButtons[i].addEventListener('click', clickOperator);
@@ -29,18 +30,28 @@ equalButton.addEventListener('click', clickEqualButton);
 clearButton.addEventListener('click', clickClearButton);
 
 function clickNumber(event) {
- 
+ val1 = document.querySelector("#button-1")
+ val1 = document.querySelector("#button-2")
+ val1 = document.querySelector("#button-3")
+ val1 = document.querySelector("#button-4")
+ val1 = document.querySelector("#button-5")
+ val1 = document.querySelector("#button-6")
+ val1 = document.querySelector("#button-7")
+ val1 = document.querySelector("#button-8")
+ val1 = document.querySelector("#button-9")
+ val1 = document.querySelector("#button-0")
+ console.log(val1);
 
 }
 
 function clickOperator(event) {
-  
-
+  // if (val1 = true)
+}
 function clickEqualButton() {
   // CODE GOES HERE
-}
+  // if (val1 && val2 = true)
+};
 
 function clickClearButton() {
-  // CODE GOES HERE
-  
-}
+
+};
